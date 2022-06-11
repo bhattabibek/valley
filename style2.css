@@ -1,0 +1,175 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.myswiper {
+
+  width: 80%;
+  height: 100%;
+}
+
+.testimonials {
+  text-align: center;
+  font-size: 18px;
+  background:#2ec06f url(images/back.png) center center no-repeat;
+}
+
+.testimonials img {
+ 
+  width: 100%;
+  height: 150px;
+  align-items: center;
+  
+ 
+}
+
+
+.container {
+  width: 1150px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #2ec06f;
+  
+}
+
+.testimonials .card{
+  position: relative;
+  padding: 10px;
+  width: 250px;
+  height: 450px;
+  background-color: transparent;
+  margin: 10px;
+  
+  border-radius: 190px;
+  overflow: hidden;
+  transition: 0.5s;
+  text-align: center;
+  
+}
+.testimonials .card img{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.testimonials .card h1{
+  font-size: 2rem;
+  color: black;
+}
+.testimonials .card .content{
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin:30px;
+  align-items: center;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+
+}
+.infor{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.visits{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.visits .fa-house,.fa-phone,.fa-envelope{
+  color: #18ba60;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.mainbtn button{
+  background-color: #18ba60;
+  padding: 10px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  transition: all .4s ease-in-out;
+
+}
+.mainbtn button:hover
+{
+  background-color:  #062d55;
+  
+}
+
+li,a{
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+.navlinks{
+  display: flex;
+  justify-content: space-evenly;
+  
+ 
+}
+.navlinks li{
+  display: inline-block;
+  margin: 25px;
+
+}
+nav{
+  background-color: #062d55;
+}
+.navlinks li:hover{
+
+ border-bottom:3px solid #18ba60;
+ margin-bottom: 3px;
+  
+}
+
+.foot{
+  width: 100%;
+  background:linear-gradient(to right,#062d55,#070f33);
+  color:#fff;
+  margin: 30px;
+  padding: 50px 0 30px;
+  border-top-left-radius:125px ;
+  font-size:13px;
+  line-height: 20px;
+}
+.row{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap:wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.col{
+  flex-basis: 25%;
+
+
+}
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-left: 10px;
+}
+footer .social{
+  font-size: 20px;
+
+
+}
+.fa-twitter{
+  padding-right: 10px;
+}
+

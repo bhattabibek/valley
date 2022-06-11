@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+.infor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.visits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.visits .fa-house,
+.fa-phone,
+.fa-envelope {
+  color: #18ba60;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.mainbtn button {
+  background-color: #18ba60;
+  padding: 10px;
+  border: none;
+  color: white;
+  font-size: 17px;
+  transition: all 0.4s ease-in-out;
+  border-radius: 40px;
+  background-color: #18ba60;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+.mainbtn button:hover {
+  background-color: #062d55;
+}
+.logo img {
+  width: 290px;
+  height: 170px;
+  object-fit: cover;
+}
+.welcome {
+  background-color: rgb(247, 241, 241);
+}
+.welcome h1 span {
+  color: #167fe7;
+  font-style: normal;
+  color: #cc932f;
+  font-family: "Oswald", sans-serif;
+}
+.welcome span {
+  color: #167fe7;
+  font-style: italic;
+}
+.welcome p {
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.welcome h1 {
+  padding: 10px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+.swiper-slide img{
+  width: 1445px;
+  height: 600px;
+  background-position: center;
+}
+.swiperplus {
+  height: 600px;
+  width: 1450px;
+  filter: brightness(60%);
+  background-position: center;
+}
+.swiper .swiper-wrapper .swiper-slide {
+  position: relative;
+}
+.weltext {
+  display: flex;
+  margin: 20px;
+  border: 1px solid black;
+}
+.weltext .welimg img {
+  width: 500px;
+  height: 400px;
+  /* border: 2px solid black; */
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: rgb(247, 241, 241);
+}
+
+.text h1 {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  z-index: 999;
+  width: 920px;
+
+  color: white;
+}
+.text p {
+  position: absolute;
+  top: 70%;
+  left: 26%;
+  z-index: 999;
+  color: white;
+  text-align: center;
+}
+
+.text {
+  font-size: 30px;
+  margin: 20px;
+}
+li,
+a {
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+}
+.navlinks {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: -20px;
+}
+.navlinks li {
+  display: inline-block;
+  margin: 25px;
+}
+nav {
+  background-color: rgb(197, 25, 25);
+}
+.navlinks li:hover {
+  border-bottom: 3px solid #18ba60;
+  margin-bottom: 3px;
+}
+.mid .main {
+  color: white;
+}
+.mid {
+  background-image: url(images/carstreet.jpg);
+  background-attachment: fixed;
+  object-fit: cover;
+  width: 1500px;
+  height: 380px;
+  filter: brightness(90%);
+  background-position: center center;
+}
+.mid h1,
+p {
+  color: white;
+  text-align: center;
+}
+.infor1 {
+  font-size: 30px;
+}
+
+.foot {
+  width: 100%;
+  background: black;
+  color: #fff;
+
+  border-top-left-radius: 125px;
+  border-bottom-right-radius: 125px;
+  font-size: 13px;
+  line-height: 20px;
+}
+.col span {
+  color: #cc932f;
+}
+.aboutp {
+  text-align: center;
+  padding-right: 20px;
+}
+.work {
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: #18ba60;
+}
+.row {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.col {
+  flex-basis: 25%;
+}
+.maps {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin-left: 20px;
+}
+footer .social {
+  font-size: 20px;
+}
+.fa-twitter {
+  padding-right: 10px;
+}
+
+.fa-angle-right {
+  color: #18ba60;
+}
+.area {
+  padding: 70px;
+  text-align: center;
+  font-size: 18px;
+  background: #062d55 url(images/back.png) center center no-repeat fixed;
+}
+
+.area2 {
+  padding: 70px;
+  text-align: center;
+  font-size: 18px;
+  background: #062d55 url(images/lino3.jpg) center center no-repeat fixed;
+}
+.ar {
+  display: inline-block;
+  margin: 40px;
+}
+.fa-location-dot {
+  font-size: 46px;
+  color: #ffd600;
+}
+.area h1 {
+  color: #fff;
+}
+.col {
+  line-height: 30px;
+}
+.myswiper {
+  width: 80%;
+  padding-bottom: 30px;
+}
+
+.testimonials {
+  text-align: center;
+  font-size: 18px;
+  background: #2ec06f url(images/back.png) center center no-repeat;
+}
+
+.testimonials img {
+  width: 100%;
+  height: 150px;
+  align-items: center;
+}
+
+.container {
+  width: 1150px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #2ec06f;
+}
+
+.testimonials .card {
+display: flex;
+flex-direction: column;
+align-items: center;
+  width: 100%;
+  height: 450px;
+  background-color: transparent;
+
+  border-radius: 190px;
+  overflow: hidden;
+  transition: 0.5s;
+  text-align: center;
+}
+.testimonials .card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.testimonials .card h1 {
+  font-size: 2rem;
+  color: black;
+}
+.testimonials .card .content {
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+@media all and (max-width: 425px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: flex-start;
+    padding: 0 30px;
+  }
+  .mainbtn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .text h1,
+  p {
+    display: none;
+  }
+  .navlinks {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .swiper {
+    width: 417px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .weltext {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .weltext .welimg img {
+    width: 400px;
+    object-fit: cover;
+  }
+  .maps {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .maps2 video {
+    width: 430px;
+  }
+  .map iframe {
+    width: 430px;
+  }
+
+  .rows {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutp {
+    display: block;
+  }
+  .area2 p {
+    display: inline-block;
+  }
+  .area p {
+    display: inline-block;
+  }
+  .swiper-slide img{
+     
+  }
+}
